@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio:curriculum</title>
     <style>
+        #fondo {
+            background-image: url(https://images.squarespace-cdn.com/content/v1/5c9fbe4de66669098db07d76/1604100063015-GQK20M4W2QJQCVP39HVC/IMG_0576.GIF?format=1000w);
+            background-size: contain;
+            height: 100vh;
+            padding: 1%;
+            margin: 0;
+            
+
+        }
+
         #subtitulos {
             padding: 3%;
             border: 5px;
@@ -17,24 +27,29 @@
             width: fit-content;
             height: fit-content;
             border-style: solid;
-            
+
         }
 
         div {
             display: inline-flex;
             font-size: x-large;
+            overflow: hidden;
         }
-        #izquierda{
+
+        #izquierda {
             display: inline-block;
-            border: 10px;
-            
+            border: 5px;
+            box-sizing: border-box;
+            color: white;
         }
+
         #derecha {
             border: 10px;
             margin: 0px;
-            color: blue;
-        
+            color: white;
+
         }
+
         ul {
             background-color: aqua;
             text-align: start;
@@ -48,41 +63,61 @@
         }
 
         img {
-            height: 35%;
-            width: 35%;
+            height: 20%;
+            width: 20%;
             text-align: center;
         }
-        #lista{
+
+        #lista {
+            padding: 3%;
+            border: 5px;
+            margin: 23px;
+            font-style: italic;
+            width: fit-content;
+            height: fit-content;
             border-style: solid;
-            border: 10px;
+            margin-left: 35%;
         }
     </style>
 </head>
 
-<body>
-    <h1 style="text-align: center;color:crimson;background-color: darksalmon;">Mi Curriculum</h1>
-    <div>
-        <img src="./img/aaa.gif" alt="gato" />
-        <h2 id="subtitulos">estudios:</h2>
-        
-        <article>
-        <p id="izquierda"><aside style="color:red ;">De 2010 a 2014:</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
-            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
-            
+<body id="fondo">
+    <!--intenté poner musica pero no reproducia <embed src="musica.mp3";autoplay hidden></embed>-->
+</body>
+<h1 style="text-align: center;color: crimson;background-color: darksalmon;
+    font-size: 388%;margin-top: -2%;">Mi Curriculum</h1>
+<div>
+    <img src="./img/aaa.gif" alt="gato" />
+    <h2 id="subtitulos">estudios:</h2>
+
+    <article>
+
+        <aside style="color:red ;">De 2010 a 2014:</aside>
+        <p id="izquierda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate
+            minima fugiat,
+            similique, ipsum quasi <span>10 puntos </span>cumque illum optio. Ipsum <mark>tremendo mastodonte</mark>
+            labore natus inventore laboriosam molestias at? Id?
+
 
 
 
         </p>
-        
-        <p id="derecha"><aside>De 2015 a 2018</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
-            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
+
+        <aside style="color: purple;">De 2015 a 2018</aside>
+        <p id="derecha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate
+            minima fugiat,
+            similique, ipsum quasi cumque illum <mark>un máquina</mark> optio. Ipsum labore natus inventore laboriosam
+            molestias at? Id?
 
 
 
-        
+
         </p>
-        <p><aside style="color:lightblue ;">De 2018 a 2020</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
-            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
+        <aside style="color:lightblue ;">De 2018 a 2020</aside>
+        <p style="color:white ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime
+            cupiditate minima fugiat,
+            similique, ipsum quasi cumque illum optio. Ipsum <span style="color: red;" >o</span> labore natus inventore laboriosam molestias
+            at? Id?
 
 
 
@@ -90,15 +125,16 @@
         </p>
     </article>
 
-    </div>
-    <ul id="lista">    <article>experiencia</article>
-        <li style="background-color:red ;width: fit-content;">10 años de barrendero</li>
-        <li style="background-color: lightblue ;width: fit-content;">30 años de programador</li>
-        <li style="color: blueviolet; " >40 meses de astronauta</li>
-        <li style="color:darkblue ;">23 segundos de "buen programador"</li>
-        <li style="color:gold ;">60 años jubilado</li>
-    </ul>
-    <a href="https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo">CLICK AQUI PARA BUSCAR TRABAJO</a>
+</div>
+<ul id="lista">
+    <article>EXPERIENCIA</article>
+    <li style="background-color:red ;width: fit-content;">10 años de barrendero</li>
+    <li style="background-color: lightblue ;width: fit-content;">30 años de programador</li>
+    <li style="color: blueviolet; ">40 meses de astronauta</li>
+    <li style="color:darkblue ;">23 segundos de "buen programador"</li>
+    <li style="color:gold ;">60 años jubilado</li>
+</ul>
+<a target="_blank" href="https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"><div style="margin-left: 35%;background-color: lightgreen;">CLICK AQUI PARA BUSCAR TRABAJO</div></a>
 </body>
 
 </html>
