@@ -1,69 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio:curriculum</title>
     <style>
-
         #subtitulos {
             padding: 3%;
-            border: 0px;
-        margin:23px;
-        color: blueviolet;
-        font-style: italic;
-        background-color: darkorange;
-        width: fit-content;
+            border: 5px;
+            margin: 23px;
+            color: blueviolet;
+            font-style: italic;
+            background-color: darkorange;
+            width: fit-content;
+            height: fit-content;
+            border-style: solid;
+            
+        }
+
+        div {
+            display: inline-flex;
+            font-size: x-large;
+        }
+        #izquierda{
+            display: inline-block;
+            border: 10px;
+            
+        }
+        #derecha {
+            border: 10px;
+            margin: 0px;
+            color: blue;
         
         }
-        p{display: flex;
-        font-size: x-large;}
-
-        ul{
+        ul {
             background-color: aqua;
             text-align: start;
             width: fit-content;
-            color:blue;
+            color: blue;
             font-style: oblique;
         }
-        a{font-size: xx-large;}
-        img{    height: 35%;
-                width: 35%;
-                text-align: center;}
-        </style>
+
+        a {
+            font-size: xx-large;
+        }
+
+        img {
+            height: 35%;
+            width: 35%;
+            text-align: center;
+        }
+        #lista{
+            border-style: solid;
+            border: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <h1 style="text-align: center;color:crimson;background-color: darksalmon;">Mi Curriculum</h1>
     <div>
-        <img src="./aaa.gif"alt="astro"/>
-    <h2 id="subtitulos">estudios:</h2>
-    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat, similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
+        <img src="./img/aaa.gif" alt="gato" />
+        <h2 id="subtitulos">estudios:</h2>
+        
+        <article>
+        <p id="izquierda"><aside style="color:red ;">De 2010 a 2014:</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
+            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
+            
+
+
+
+        </p>
+        
+        <p id="derecha"><aside>De 2015 a 2018</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
+            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
+
+
+
+        
+        </p>
+        <p><aside style="color:lightblue ;">De 2018 a 2020</aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat,
+            similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
 
 
 
 
-    </p>   <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat, similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
-
-
-
-
-    </p>   <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sequi quod hic maxime cupiditate minima fugiat, similique, ipsum quasi cumque illum optio. Ipsum labore natus inventore laboriosam molestias at? Id?
-
-
-
-
-    </p>
-
+        </p>
+    </article>
 
     </div>
-    <ul>experiencia
-        <li>10 años de barrendero</li>
-        <li>30 años de programador</li>
-        <li>40 meses de niño</li>
-        <li>23 segundos de "buen programador"</li>
-        <li>60 años jubilado</li>
+    <ul id="lista">    <article>experiencia</article>
+        <li style="background-color:red ;width: fit-content;">10 años de barrendero</li>
+        <li style="background-color: lightblue ;width: fit-content;">30 años de programador</li>
+        <li style="color: blueviolet; " >40 meses de astronauta</li>
+        <li style="color:darkblue ;">23 segundos de "buen programador"</li>
+        <li style="color:gold ;">60 años jubilado</li>
     </ul>
     <a href="https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo">CLICK AQUI PARA BUSCAR TRABAJO</a>
 </body>
+
 </html>
