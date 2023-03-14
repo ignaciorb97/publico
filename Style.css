@@ -1,13 +1,7 @@
 * {
   text-align: center;
 }
-body {
-  counter-reset: section;
-}
-h2::before {
-  counter-increment: section;
-  content: "Esfrofa " counter(section) ": ";
-}
+
 h2 {
   text-decoration:underline;
 }
