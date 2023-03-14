@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Main.xsl"?>
+
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Letras.xsd">
+
+	<titulo>Silhouette</titulo>
+	<autor>KANA-BOON</autor>
+	<letra>
+		<estrofa>
+			<verso>Isse no se de fumikomu gourain</verso>
+			<verso>bokura wa</verso>
+			<verso>Nanimo nanimo mada shiranu</verso>
+			<verso>Issen koete furikaeruto mou nai </verso>
+			<verso>bokura wa</verso>
+			<verso>Nanimo nanimo mada shiranu</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Udatte udatte udatteku</verso>
+			<verso>Kirameku ase ga koboreru no sa</verso>
+			<verso>Oboetenai koto mo takusan</verso>
+			<verso>attadarou</verso>
+			<verso>Daremo kare mo shiruetto</verso>
+			<verso>Daiji ni shitetta mono wasureta</verso>
+			<verso>Furi o shitanda yo</verso>
+			<verso>Nanimo nani yo waraerusa</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Isse no de omoidasu shounen</verso>
+			<verso>Bokura wa nanimo kamo wo</verso>
+			<verso>hoshiga tta</verso>
+			<verso>Wakatteru tte a kizuiteru tte</verso>
+			<verso>Tokei no hari wa hibi wa</verso>
+			<verso>tomaranai</verso>
+			<verso>Ubatte ubatte ubatteku nagareru</verso>
+			<verso>toki to kioku</verso>
+			<verso>Tooku tooku tooku ni natte</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Oboetenai koto mo takusan</verso>
+			<verso>attadarou</verso>
+			<verso>Daremo kare mo shiruetto</verso>
+			<verso>Wo sore de yamanu koto</verso>
+			<verso>shiranai</verso>
+			<verso>Furi wo shitanda yo</verso>
+			<verso>Nanimo nani yo waraerusa</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Oboetenai koto mo takusan atta</verso>
+			<verso>kedo</verso>
+			<verso>Kitto Zutto kawaranai</verso>
+			<verso>Mono ga aru koto o oshiete</verso>
+			<verso>kureta anata wa</verso>
+			<verso>Kieru Kieru Shiruetto</verso>
+			<verso>Daiji ni shitai mono motte otona</verso>
+			<verso>ni naru nda</verso>
+			<verso>Don'na toki mo hanasazu ni</verso>
+			<verso>Mamori tsuzukeyou soshitara itsu</verso>
+			<verso>no hi ni ka</verso>
+			<verso>Nanimo kamo wo waraerusa</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Hirari to hirari to matteru</verso>
+			<verso>Konoha ga tonde yuku</verso>
+		</estrofa>
+
+	</letra>
+</cancion>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Main.xsl"?>
+
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Letras.xsd">
+
+	<titulo>Luz_Fuego_Destrucción</titulo>
+	<autor>Red Square</autor>
+	<letra>
+		<estrofa>
+			<verso>Volando, volando, siempre arriba (siempre arriba)</verso>
+			<verso>Na na na, tú y yo, lucharemos los dos</verso>
+			<verso>Volando, volando, siempre arriba, siempre arriba</verso>
+			<verso>Na na na, nunca a un amigo abandonaremos</verso>
+		</estrofa>
+
+		<estrofa>
+			<verso>Juntos podremos romper un iceberg</verso>
+			<verso>Unamos nuestras manos</verso>
+			<verso>Combatamos al mal que nos persigue</verso>
+		</estrofa>
+
+
+		<estrofa>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>El mundo puede ser una ruina</verso>
+			<verso>No lo podemos permitir</verso>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>A nuestros enemigos hay que vencer</verso>
+			<verso>Luchando hasta el final</verso>
+		</estrofa>
+
+
+		<estrofa>
+			<verso>Volando, volando, siempre arriba (siempre arriba)</verso>
+			<verso>Na na na, tú y yo, lucharemos los dos</verso>
+			<verso>Volando, volando, siempre arriba (siempre arriba)</verso>
+			<verso>Na na na, nunca a un amigo abandonaremos</verso>
+		</estrofa>
+
+
+		<estrofa>
+			<verso>Juntos podremos romper un iceberg</verso>
+			<verso>Unamos nuestras manos</verso>
+			<verso>Combatamos al mal que nos persigue</verso>
+		</estrofa>
+
+
+		<estrofa>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>El mundo puede ser una ruina</verso>
+			<verso>No lo podemos permitir</verso>
+		</estrofa>
+
+
+		<estrofa>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>A nuestros enemigos hay que vencer</verso>
+			<verso>Luchando hasta el final</verso>
+		</estrofa>
+			<estrofa>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>La paz en el universo ha de nacer</verso>
+			<verso>Hemos de hacer un mundo mejor</verso>
+		</estrofa>
+				<estrofa>
+			<verso>Luz, fuego, destrucción</verso>
+			<verso>La fuerza de la verdad nunca morirá</verso>
+			<verso>No morirá, no, no, no, no, no, no</verso>
+		</estrofa>
+
+	</letra>
+</cancion>
