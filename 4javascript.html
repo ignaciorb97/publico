@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de impresión de números</title>
+</head>
+<body>
+  <script>
+    let num1 = prompt('Introduce el número a repetir:');
+    let num2 = prompt('Introduce la cantidad de veces a repetir el número:');
+    let lineaMax = 8;
+    let linea = '';
+
+    for (let i = 1; i <= num2; i++) {
+      linea += num1; // Agregar el número a la línea
+
+      // Si la línea alcanza la longitud máxima, escribirla y resetearla
+      if (linea.length === lineaMax) {
+        document.write(linea + '<br>');
+        linea = '';
+      }
+    }
+
+    // Escribir cualquier carácter restante en la línea final
+    if (linea.length > 0) {
+      document.write(linea + '<br>');
+    }
+  </script>
+</body>
+</html>
+
