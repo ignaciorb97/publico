@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejemplo de impresión de números</title>
 </head>
 <body>
@@ -11,16 +14,13 @@
     let linea = '';
 
     for (let i = 1; i <= num2; i++) {
-      linea += num1; // Agregar el número a la línea
+      linea += num1;
 
-      // Si la línea alcanza la longitud máxima, escribirla y resetearla
       if (linea.length === lineaMax) {
         document.write(linea + '<br>');
         linea = '';
       }
     }
-
-    // Escribir cualquier carácter restante en la línea final
     if (linea.length > 0) {
       document.write(linea + '<br>');
     }

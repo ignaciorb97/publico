@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Dividiendo la pantalla en 9 zonas</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .circle {
-        width: 30%;
-        padding-bottom: 30%;
-		border-radius: 50%;
-        background-color: #ff6600;
-		justify-content: center;
-		align-items: center;
-      }
-      .zone {
-        width: 33.33%;
-        height: 33.33%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
-  </head>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>circulos y piramides</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .circulo {
+      width: 30%;
+      padding-bottom: 30%;
+  border-radius: 50%;
+      background-color: #ff6600;
+  justify-content: center;
+  align-items: center;
+    }
+    .zona {
+      width: 33.33%;
+      height: 33.33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
   <body>
-    <div class="zone" data-number="1"><div class="circle" id="circle1"></div></div>
-    <div class="zone"></div>
-    <div class="zone" data-number="2"><div class="circle" id="circle2"></div></div>
-    <div class="zone"></div>
-    <div class="zone" data-number="3"><div class="circle" id="circle3"></div></div>
-    <div class="zone"></div>
-    <div class="zone" data-number="4"><div class="circle" id="circle4"></div></div>
-    <div class="zone"></div>
-    <div class="zone" data-number="5"><div class="circle" id="circle5"></div></div>
+    <div class="zona" data-number="1"><div class="circulo" id="circulo1"></div></div>
+    <div class="zona"></div>
+    <div class="zona" data-number="2"><div class="circulo" id="circulo2"></div></div>
+    <div class="zona"></div>
+    <div class="zona" data-number="3"><div class="circulo" id="circulo3"></div></div>
+    <div class="zona"></div>
+    <div class="zona" data-number="4"><div class="circulo" id="circulo4"></div></div>
+    <div class="zona"></div>
+    <div class="zona" data-number="5"><div class="circulo" id="circulo5"></div></div>
     
     <script>
 
@@ -53,22 +57,22 @@
       }
 
 
-      const circleNumber = parseInt(prompt("Introduce el número del círculo que quieres cambiar (1-5):"));
-      const circle = document.getElementById(`circle${circleNumber}`);
+      const circuloNumber = parseInt(prompt("Introduce el número del círculo que quieres cambiar (1-5):"));
+      const circulo = document.getElementById(`circulo${circuloNumber}`);
       const color = prompt("Introduce el color para el círculo (a = rojo, b = azul, c = verde, d = morado):");
 
       switch (color) {
         case "a":
-          circle.style.backgroundColor = "red";
+          circulo.style.backgroundColor = "red";
           break;
         case "b":
-          circle.style.backgroundColor = "blue";
+          circulo.style.backgroundColor = "blue";
           break;
         case "c":
-          circle.style.backgroundColor = "green";
+          circulo.style.backgroundColor = "green";
           break;
         case "d":
-          circle.style.backgroundColor = "purple";
+          circulo.style.backgroundColor = "purple";
           break;
         default:
           alert("Color no válido. Los colores válidos son a, b, c y d.");
@@ -77,7 +81,7 @@
       const crearPiramideRespuesta = prompt("¿Deseas crear una pirámide en este círculo? (s/n)");
 
       if (crearPiramideRespuesta === "s") {
-        crearPiramide(circle);
+        crearPiramide(circulo);
       }
     </script>
   </body>
