@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dividiendo la pantalla en 9 zonas</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .circle {
+        width: 30%;
+        padding-bottom: 30%;
+		border-radius: 50%;
+        background-color: #ff6600;
+		justify-content: center;
+		align-items: center;
+      }
+      .zone {
+        width: 33.33%;
+        height: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="zone" data-number="1"><div class="circle" id="circle1"></div></div>
+    <div class="zone"></div>
+    <div class="zone" data-number="2"><div class="circle" id="circle2"></div></div>
+    <div class="zone"></div>
+    <div class="zone" data-number="3"><div class="circle" id="circle3"></div></div>
+    <div class="zone"></div>
+    <div class="zone" data-number="4"><div class="circle" id="circle4"></div></div>
+    <div class="zone"></div>
+    <div class="zone" data-number="5"><div class="circle" id="circle5"></div></div>
+    
+    <script>
+
+      function crearPiramide(elemento) {
+        var altura = 5;
+        var caracteres = "";
+
+        for (var i = 0; i < altura; i++) {			
+          caracteres += "#";
+          elemento.innerText += caracteres + "\n";
+        }
+      }
+
+
+      const circleNumber = parseInt(prompt("Introduce el número del círculo que quieres cambiar (1-5):"));
+      const circle = document.getElementById(`circle${circleNumber}`);
+      const color = prompt("Introduce el color para el círculo (a = rojo, b = azul, c = verde, d = morado):");
+
+      switch (color) {
+        case "a":
+          circle.style.backgroundColor = "red";
+          break;
+        case "b":
+          circle.style.backgroundColor = "blue";
+          break;
+        case "c":
+          circle.style.backgroundColor = "green";
+          break;
+        case "d":
+          circle.style.backgroundColor = "purple";
+          break;
+        default:
+          alert("Color no válido. Los colores válidos son a, b, c y d.");
+      }
+
+      const crearPiramideRespuesta = prompt("¿Deseas crear una pirámide en este círculo? (s/n)");
+
+      if (crearPiramideRespuesta === "s") {
+        crearPiramide(circle);
+      }
+    </script>
+  </body>
+</html>
+
+
+
